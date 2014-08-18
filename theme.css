@@ -475,6 +475,7 @@ th[colspan="7"] { display: none; }
 	background-color: #262626 !important;
 	text-align: center !important;
 	padding: 5px 0;
+	border-bottom: 1px solid grey;
 }
 
 #rescell2 { padding-left: 50px; }
