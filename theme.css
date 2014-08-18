@@ -492,6 +492,10 @@ th[colspan="7"] { display: none; }
 
 #rescell2 { padding-left: 50px; }
 
+#spnWait table { width: inherit !important; }
+
+#spnWait thead th { padding-right: 236px !important; }
+
 #divFilterKDNews { border: none !important; }
 #divFilterKDNews span { font-size: 0.8em; }
 
