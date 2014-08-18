@@ -334,11 +334,21 @@ label[for="id_spell"] {
 	top: 0 !important;
 }
 
+#id_target_province { white-space: nowrap; }
+
+#uniform-id_target_province { margin-left: 8px; }
+
 
 /* Thievery Page */
 form input[id="id_quantity"] { 
-	width: 70px;
-	margin-left: -5px;
+	width: 60px;
+	margin-left: 10px;
+}
+
+#idallyourthieves {
+	width: 37px;
+	text-align: center;
+	margin-right: 7px;
 }
 
 
