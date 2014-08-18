@@ -334,14 +334,14 @@ label[for="id_spell"] {
 	top: 0 !important;
 }
 
-#id_target_province { white-space: nowrap; }
+#id_target_province { white-space: nowrap !important; }
 
 #uniform-id_target_province { margin-left: 8px; }
 
 
 /* Thievery Page */
 form input[id="id_quantity"] { 
-	width: 60px;
+	width: 60px !important;
 	margin-left: 10px;
 }
 
