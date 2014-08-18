@@ -492,9 +492,15 @@ th[colspan="7"] { display: none; }
 
 #rescell2 { padding-left: 50px; }
 
-#spnWait table { width: inherit !important; }
+#spnWait table { 
+	width: inherit !important;
+	margin-right: 15px !important;
+}
 
-#spnWait thead th { padding-right: 236px !important; }
+#spnWait thead th { 
+	padding-right: 222px !important;
+	white-space: nowrap;
+}
 
 #divFilterKDNews { border: none !important; }
 #divFilterKDNews span { font-size: 0.8em; }
