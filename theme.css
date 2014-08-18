@@ -492,6 +492,8 @@ th[colspan="7"] { display: none; }
 
 #rescell2 { padding-left: 50px; }
 
+#spnWait { line-height: 2em; }
+
 #spnWait table { 
 	width: inherit !important;
 	margin-right: 15px !important;
