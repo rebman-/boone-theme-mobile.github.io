@@ -1,4 +1,4 @@
-utopia-theme-default.github.io
+boone-theme.github.io
 ==============================
 
-The default CSS theme of http://utopia-game.com
+A custom theme designed for Utopia (http://utopia-game.com).
