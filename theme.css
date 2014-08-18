@@ -427,7 +427,7 @@ li[class="advice-message"] { margin-left: 100px; }
 
 
 /* Upoopu */
-#upoopu_extension { top: 0; }
+#upoopu_extension, #upoopu_extension_credentials { top: 0; }
 
 
 /* Ultima */
