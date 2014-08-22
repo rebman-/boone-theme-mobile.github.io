@@ -441,7 +441,7 @@ li[class="advice-message"] { margin-left: 100px; }
 
 
 /* Monarchy */
-#id_monarch_option-name { width: 450px; }
+input[id="id_monarch_option-name"] { width: 450px !important; }
 
 #id_monarch_option-message {
 	width: 450px;
