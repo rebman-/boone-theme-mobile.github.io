@@ -253,6 +253,30 @@ span[class="advice-message"] { margin-left: 0; }
 .intel-stale { color: #FFC583 !important; }
 .you, .you a { color: #45acf6 !important; }
 
+.dip-status { color: #000; }
+
+.dip-status-NORMAL { background-color: #01DF01; }
+
+.dip-status-UNFRIENDLY { background-color: #FFBF00; }
+
+.dip-status-HOSTILE {
+    background-color:#FF4000;
+    background-image: url(./images/hostile_meter/hostile_gradient.png);
+    background-repeat:repeat-y;
+}
+
+.dip-status-WAR { background-color: #FF0000; }
+
+.own-meter-value { background-image: url(./images/hostile_meter/up.png); }
+
+.their-meter-value { background-image: url(./images/hostile_meter/down.png); }
+
+.war-button-meter-value { background-image: url(./images/hostile_meter/war.png); }
+
+#hostility-meter-example { background-image: url(./images/hostile_meter/example.png); }
+
+#id_taunt_top_image { color: white; }
+
 
 /* News Page */
 td.news-incident-type {
