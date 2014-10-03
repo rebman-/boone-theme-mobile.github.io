@@ -522,3 +522,180 @@ th[colspan="7"] { display: none; }
 	border: none;
 	padding-left: 15px;
 }
+
+@media all and (max-width: 1000px) and (min-width: 200px) {
+	body {
+	  	border: 3px solid red;
+	  	min-width: 270px;
+	}
+	#middle {
+		order: 2;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#game-navigation {
+		display: flex;
+		flex-direction: row;
+		align-content: flex-start;
+		flex-wrap: wrap;
+		padding: 5px;
+		font-family: "Arial Narrow", Arial, sans-serif;
+		font-size: 14px !important;
+	}
+
+
+
+	#game-navigation .navigation {
+		display: inline-flex;
+		flex-flow: row wrap;
+		flex: 1 0 auto;
+		text-align: center;
+		color: black;
+	}
+
+	#game-navigation .navigation > div {
+		margin: 3px 2px;
+		padding: 0;
+		display: inline-flex;
+		flex-flow: row wrap;
+		flex: 1 0 auto;
+
+	}
+
+	#game-navigation .navigation > div > a {
+		font-size: 18px;
+		line-height: 24px;
+		text-align: center;
+		padding: 2px 8px;
+		border: 1px dotted rgba(80,80,80,0.5);
+		flex: 1 0.5 auto;
+	}
+	#game-navigation .current-date {
+		color: #45ACF6;
+		font-weight: bold;
+		letter-spacing: 2px;
+		width: 100%;
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+		vertical-align: middle;
+		font-family: Calibri, Arial, sans-serif;
+		margin: 10px;
+
+	}
+
+	/* HIDE UTOOLS PAY BUTTON */
+	#game-navigation .navigation:last-child > div:last-child > div {
+		display: none;
+	}
+
+
+	#game-navigation .navigation > div > a:hover {
+		background-color: #000;
+		border-color: #45ACF6;
+		border-style: solid;
+		color: #45ACF6;
+	}
+	#game-navigation .navigation > div > a:hover ~ a, 
+	#game-navigation .navigation > div > a:hover ~ a:active {
+		background-color: #000;
+		border-color: #45ACF6;
+		border-style: solid;
+		color: #45ACF6;
+	}
+	#game-navigation .navigation > div > a + a {
+		font-size: 16px;
+		line-height: 24px;
+		margin-left: -5px;
+		border-left-width: 1px;
+		max-width: 32px;
+		min-width: 24px;
+	}
+
+	#game-navigation .navigation > div > a + span + a {
+		//border-left: 1px solid gray;
+		margin-left: 5px;
+	}
+
+	#game-navigation .navigation > div > a ~ span {
+		width: 0 !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		display: none;
+		visibility: hidden;
+	}
+	
+	#header {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	#header > div {
+		flex: 1 1 auto;
+	}
+	#header > div:last-child {
+		flex: 1 1 auto;
+	}
+	#header-navigation .navigation {
+		flex: 1 0 auto;
+		line-height: 28px;
+		font-size: 16px;
+		height: 28px;
+		min-height: 28px;
+
+	}
+
+	#header-navigation .navigation div {
+		display: flex;
+		order: 2;
+	}
+	#left-column > div:first-child {
+		width: 100% !important;
+	}
+
+	#throne-game-message h2, 
+	#throne-monarch-message h2,
+	.game-content > div > h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 15px 0;
+		//color: #45ACF6;
+		//color: #FFF;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		text-shadow: 0 0 5px #000;
+		font-family: "Segoe UI",sans-serif
+	}
+
+	#throne-game-message p, 
+	#throne-monarch-message p {
+		font-size: 16px;
+		font-family: "Arial Narrow", Arial, sans-serif;
+		line-height: 24px;
+		padding: 5px;
+		background-color: rgba(105,105,105,0.4);
+		border: 1px solid gray;
+	}
+	#throne-monarch-message p {
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+
+	.game-content > div > h2 {
+		letter-spacing: 1px;
+		font-size: 18px;
+		line-height: 26px;
+		font-family: "Arial Narrow", Arial, Verdana;
+		text-transform: none;
+		margin: 20px 0;
+	}
+
+	.game-content > div > h2 ~ .two-column-stats tr:nth-child(2) td:first-child {
+		background-color: orange;
+	}
+	.game-content {
+		padding: 10px;
+	}
+
+}
